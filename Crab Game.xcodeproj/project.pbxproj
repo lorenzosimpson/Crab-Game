@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE1DA9425B509A0003D6B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DA9325B509A0003D6B49 /* AppDelegate.swift */; };
+		EDE1DA9625B509A0003D6B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DA9525B509A0003D6B49 /* SceneDelegate.swift */; };
+		EDE1DA9B25B509A0003D6B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE1DA9925B509A0003D6B49 /* Main.storyboard */; };
+		EDE1DA9D25B509A3003D6B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE1DA9C25B509A3003D6B49 /* Assets.xcassets */; };
+		EDE1DAA025B509A3003D6B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE1DA9E25B509A3003D6B49 /* LaunchScreen.storyboard */; };
+		EDE1DAAA25B50A21003D6B49 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE1DAA925B50A21003D6B49 /* Crab.xcassets */; };
+		EDE1DAAD25B50A3D003D6B49 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DAAC25B50A3D003D6B49 /* SKSpriteNode+Utility.swift */; };
+		EDE1DAB025B50A64003D6B49 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE1DAAF25B50A64003D6B49 /* Info.storyboard */; };
+		EDE1DAB325B50A76003D6B49 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DAB225B50A76003D6B49 /* Settings.swift */; };
+		EDE1DAB625B511E1003D6B49 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DAB525B511E1003D6B49 /* InfoViewController.swift */; };
+		EDE1DAB925B51668003D6B49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DAB825B51668003D6B49 /* SettingsViewController.swift */; };
+		EDE1DABC25B517F1003D6B49 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DABB25B517F1003D6B49 /* GamesViewController.swift */; };
+		EDE1DAC025B518F3003D6B49 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1DABF25B518F3003D6B49 /* CustomScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDE1DA9025B509A0003D6B49 /* Crab Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crab Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE1DA9325B509A0003D6B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDE1DA9525B509A0003D6B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDE1DA9A25B509A0003D6B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE1DA9C25B509A3003D6B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE1DA9F25B509A3003D6B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE1DAA125B509A3003D6B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE1DAA925B50A21003D6B49 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = ../../Contained/Crab.xcassets; sourceTree = "<group>"; };
+		EDE1DAAC25B50A3D003D6B49 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../Contained/SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
+		EDE1DAAF25B50A64003D6B49 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
+		EDE1DAB225B50A76003D6B49 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		EDE1DAB525B511E1003D6B49 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		EDE1DAB825B51668003D6B49 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EDE1DABB25B517F1003D6B49 /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		EDE1DABF25B518F3003D6B49 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE1DA8D25B509A0003D6B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE1DA8725B509A0003D6B49 = {
+			isa = PBXGroup;
+			children = (
+				EDE1DA9225B509A0003D6B49 /* Crab Game */,
+				EDE1DA9125B509A0003D6B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE1DA9125B509A0003D6B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE1DA9025B509A0003D6B49 /* Crab Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE1DA9225B509A0003D6B49 /* Crab Game */ = {
+			isa = PBXGroup;
+			children = (
+				EDE1DA9325B509A0003D6B49 /* AppDelegate.swift */,
+				EDE1DA9525B509A0003D6B49 /* SceneDelegate.swift */,
+				EDE1DA9925B509A0003D6B49 /* Main.storyboard */,
+				EDE1DAB825B51668003D6B49 /* SettingsViewController.swift */,
+				EDE1DABB25B517F1003D6B49 /* GamesViewController.swift */,
+				EDE1DABF25B518F3003D6B49 /* CustomScene.swift */,
+				EDE1DA9C25B509A3003D6B49 /* Assets.xcassets */,
+				EDE1DAA925B50A21003D6B49 /* Crab.xcassets */,
+				EDE1DAAF25B50A64003D6B49 /* Info.storyboard */,
+				EDE1DAB525B511E1003D6B49 /* InfoViewController.swift */,
+				EDE1DAB225B50A76003D6B49 /* Settings.swift */,
+				EDE1DAAC25B50A3D003D6B49 /* SKSpriteNode+Utility.swift */,
+				EDE1DA9E25B509A3003D6B49 /* LaunchScreen.storyboard */,
+				EDE1DAA125B509A3003D6B49 /* Info.plist */,
+			);
+			path = "Crab Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE1DA8F25B509A0003D6B49 /* Crab Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE1DAA425B509A3003D6B49 /* Build configuration list for PBXNativeTarget "Crab Game" */;
+			buildPhases = (
+				EDE1DA8C25B509A0003D6B49 /* Sources */,
+				EDE1DA8D25B509A0003D6B49 /* Frameworks */,
+				EDE1DA8E25B509A0003D6B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crab Game";
+			productName = "Crab Game";
+			productReference = EDE1DA9025B509A0003D6B49 /* Crab Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE1DA8825B509A0003D6B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EDE1DA8F25B509A0003D6B49 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = EDE1DA8B25B509A0003D6B49 /* Build configuration list for PBXProject "Crab Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE1DA8725B509A0003D6B49;
+			productRefGroup = EDE1DA9125B509A0003D6B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE1DA8F25B509A0003D6B49 /* Crab Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE1DA8E25B509A0003D6B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE1DAA025B509A3003D6B49 /* LaunchScreen.storyboard in Resources */,
+				EDE1DAAA25B50A21003D6B49 /* Crab.xcassets in Resources */,
+				EDE1DA9D25B509A3003D6B49 /* Assets.xcassets in Resources */,
+				EDE1DAB025B50A64003D6B49 /* Info.storyboard in Resources */,
+				EDE1DA9B25B509A0003D6B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE1DA8C25B509A0003D6B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE1DABC25B517F1003D6B49 /* GamesViewController.swift in Sources */,
+				EDE1DAAD25B50A3D003D6B49 /* SKSpriteNode+Utility.swift in Sources */,
+				EDE1DA9425B509A0003D6B49 /* AppDelegate.swift in Sources */,
+				EDE1DAB325B50A76003D6B49 /* Settings.swift in Sources */,
+				EDE1DA9625B509A0003D6B49 /* SceneDelegate.swift in Sources */,
+				EDE1DAC025B518F3003D6B49 /* CustomScene.swift in Sources */,
+				EDE1DAB625B511E1003D6B49 /* InfoViewController.swift in Sources */,
+				EDE1DAB925B51668003D6B49 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDE1DA9925B509A0003D6B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE1DA9A25B509A0003D6B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE1DA9E25B509A3003D6B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE1DA9F25B509A3003D6B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE1DAA225B509A3003D6B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDE1DAA325B509A3003D6B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE1DAA525B509A3003D6B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8Q2JQ9WN3;
+				INFOPLIST_FILE = "Crab Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Crab-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE1DAA625B509A3003D6B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8Q2JQ9WN3;
+				INFOPLIST_FILE = "Crab Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Crab-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE1DA8B25B509A0003D6B49 /* Build configuration list for PBXProject "Crab Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE1DAA225B509A3003D6B49 /* Debug */,
+				EDE1DAA325B509A3003D6B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE1DAA425B509A3003D6B49 /* Build configuration list for PBXNativeTarget "Crab Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE1DAA525B509A3003D6B49 /* Debug */,
+				EDE1DAA625B509A3003D6B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE1DA8825B509A0003D6B49 /* Project object */;
+}
